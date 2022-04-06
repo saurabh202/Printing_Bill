@@ -1,0 +1,33 @@
+
+.header{
+    background-image:url("sky1.jpg");
+    height:100vh;
+    background-size:cover;
+    background-position:center;
+    font-family:monospace;
+}
+.loginform{
+    width:320px;
+    height:420px;
+    
+    position:absolute;
+    top:33%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:70px 30px;
+}
+h1{
+    color:white;
+    padding-top: 2px;
+    text-decoration:underline;
+    font-style:italic;
+}
+input[type="submit"]:hover{
+    width:55px;
+    height:40px;
+     background-color:yellow;
+     cursor:pointer;  
+}
+body{
+    background-color: lightpink;
+}
